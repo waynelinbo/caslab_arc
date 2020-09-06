@@ -1,0 +1,1254 @@
+Archive member included to satisfy reference by file (symbol)
+
+obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+                              obj_iotdk_10/gnu_arcem9d/application/./main.o (gpio_get_dev)
+obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o (ss_gpio_open)
+obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+                              obj_iotdk_10/gnu_arcem9d/board/board.o (board_init)
+obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o (iotdk_timer_init)
+obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o (io_pmod_config)
+obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o (sysconf_reg_ptr)
+obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+                              obj_iotdk_10/gnu_arcem9d/board/board.o (xprintf_setup)
+obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+                              obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o (xfunc_out)
+obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+                              obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o (arc_cache_init)
+obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                              obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o (exc_int_init)
+obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o (timer_present)
+obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+                              obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o (exc_entry_cpu)
+obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+                              obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o (gnu_printf_setup)
+obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+                              obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o (uart_get_dev)
+obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+                              obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o (io_gpio_open)
+obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o (ss_uart_open)
+obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+                              obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o (io_uart_open)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/em4_fpuda\libgcc.a(_divdi3.o)
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o (__divdi3)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/em4_fpuda\libgcc.a(_udivdi3.o)
+                              obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o (__udivdi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+xfunc_in            0x4               obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+xfunc_out           0x4               obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+exc_nest_count      0x4               obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .text.__cxa_atexit
+                0x00000000        0x4 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .text.__cxa_pure_virtual
+                0x00000000        0x4 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .bss.__dso_handle
+                0x00000000        0x4 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .text.board_get_hwticks
+                0x00000000       0x38 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .text.board_get_cur_us
+                0x00000000       0x58 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .text.board_delay_ms
+                0x00000000       0xec obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .text.io_mikro_config
+                0x00000000       0x3c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .text.io_arduino_config
+                0x00000000      0x260 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .rodata.io_arduino_config
+                0x00000000       0x50 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .text.io_arduino_config_spi
+                0x00000000       0x3c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .text.io_arduino_config_uart
+                0x00000000       0x3c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .text.io_arduino_config_i2c
+                0x00000000       0x3c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .rodata.CSWTCH.46
+                0x00000000       0x50 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.ahb_clk_divisor
+                0x00000000       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.ahb_clk_enable
+                0x00000000       0x1c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.ahb_clk_disable
+                0x00000000       0x24 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.apb_clk_divisor
+                0x00000000       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.apb_clk_enable
+                0x00000000       0x1c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.apb_clk_disable
+                0x00000000       0x24 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.sdio_clk_divisor
+                0x00000000       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.spi_master_clk_divisor
+                0x00000000       0x6c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.gpio8b_dbclk_div
+                0x00000000       0x8c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.gpio4b_dbclk_div
+                0x00000000       0x6c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.i2s_tx_clk_div
+                0x00000000       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.i2s_rx_clk_div
+                0x00000000       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.i2s_rx_clk_sel
+                0x00000000       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.syscon_reset
+                0x00000000       0x14 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.is_poweron_rst
+                0x00000000       0x18 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.dvfs_clk_divisor
+                0x00000000       0x8c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.dvfs_vdd_config
+                0x00000000       0x8c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.dvfs_vwtime_config
+                0x00000000       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.pmc_pwwtime_config
+                0x00000000       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.uart3_clk_divisor
+                0x00000000       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.reset_powerdown_vector
+                0x00000000       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.pwm_timer_pause
+                0x00000000       0x30 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text.eflash_clk_div
+                0x00000000       0x1c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .text.console_putstr
+                0x00000000       0x14 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .text.console_getstr
+                0x00000000       0x14 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .text.xgets.part.0
+                0x00000000       0x88 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .text.xputs    0x00000000       0x20 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .text.xfputs   0x00000000       0x3c obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .text.xsprintf
+                0x00000000       0x44 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .text.xfprintf
+                0x00000000       0x48 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .rodata.put_dump.str1.4
+                0x00000000       0x20 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .text.put_dump
+                0x00000000       0xf0 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .text.xgets    0x00000000       0x14 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .text.xfgets   0x00000000       0x34 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .text.xatoi    0x00000000       0xfc obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .text.icache_invalidate_mlines
+                0x00000000       0x60 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .text.icache_lock_mlines
+                0x00000000       0x74 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .text.icache_direct_write
+                0x00000000       0x38 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .text.icache_direct_read
+                0x00000000       0x34 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .text.icache_indirect_read
+                0x00000000       0x38 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .text.dcache_invalidate_mlines
+                0x00000000       0x80 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .text.dcache_flush_mlines
+                0x00000000       0x80 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .text.dcache_lock_mlines
+                0x00000000       0x78 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .text.dcache_direct_write
+                0x00000000       0x38 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .text.dcache_direct_read
+                0x00000000       0x34 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .text.dcache_indirect_read
+                0x00000000       0x38 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text.exc_entry_install
+                0x00000000       0x78 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text.exc_entry_get
+                0x00000000       0x1c obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text.exc_handler_install
+                0x00000000       0x1c obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text.exc_handler_get
+                0x00000000       0x1c obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text.int_enabled
+                0x00000000       0x20 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text.int_ipm_get
+                0x00000000       0x10 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text.int_ipm_set
+                0x00000000       0x34 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text.int_pri_get
+                0x00000000       0x28 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text.int_pri_set
+                0x00000000       0x3c obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text.int_secure_set
+                0x00000000       0x44 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text.int_probe
+                0x00000000       0x20 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text.int_sw_trigger
+                0x00000000       0x1c obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text.int_level_config
+                0x00000000       0x24 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text.cpu_lock
+                0x00000000        0x8 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text.int_handler_get
+                0x00000000       0x20 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .text.timer_stop
+                0x00000000       0x70 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .text.timer_current
+                0x00000000       0x30 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .text.arc_delay_us
+                0x00000000        0x8 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .text          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .data          0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .bss           0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .text          0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/em4_fpuda\libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/em4_fpuda\libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/em4_fpuda\libgcc.a(_divdi3.o)
+ .text.__divdi3
+                0x00000000      0x3ac c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/em4_fpuda\libgcc.a(_divdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/em4_fpuda\libgcc.a(_divdi3.o)
+ .debug_frame   0x00000000       0x40 c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/em4_fpuda\libgcc.a(_divdi3.o)
+ .ARC.attributes
+                0x00000000       0x40 c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/em4_fpuda\libgcc.a(_divdi3.o)
+ .text          0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/em4_fpuda\libgcc.a(_udivdi3.o)
+ .data          0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/em4_fpuda\libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/em4_fpuda\libgcc.a(_udivdi3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+REGION_ICCM      0x20000000         0x00040000
+REGION_DCCM      0x80000000         0x00020000
+REGION_EXT_ROM   0x00000000         0x00040000
+REGION_EXT_RAM   0x30000000         0x00020000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/../../../../arc-elf32/lib/em4_fpuda\libm.a
+
+.init           0x20000000      0x214
+                0x20000000                . = (. + 0x0)
+                0x20000000                _f_init = .
+ *(.init_vector .init_vector.*)
+ .init_vector   0x20000000        0x4 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ *(.init_bootstrap .init_bootstrap.*)
+ .init_bootstrap
+                0x20000004      0x210 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+                0x20000004                _arc_reset
+                0x20000004                _start
+                0x20000200                _exit_loop
+                0x20000200                _exit_halt
+                0x20000214                _e_init = .
+
+.vector         0x20000400      0x400
+                0x20000400                _f_vector = .
+ *(.vector .vector.*)
+ .vector        0x20000400      0x400 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x20000400                exc_entry_table
+                0x20000800                _e_vector = .
+
+.text           0x20000800     0x3408
+                0x20000800                _f_text = .
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text.startup.main
+                0x20000800       0x84 obj_iotdk_10/gnu_arcem9d/application/./main.o
+                0x20000800                main
+ .text.board_main
+                0x20000884       0x40 obj_iotdk_10/gnu_arcem9d/board/board.o
+                0x20000884                board_main
+ .text.__do_global_ctors_aux
+                0x200008c4       0x30 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+                0x200008c4                __do_global_ctors_aux
+ .text.__do_global_dtors_aux
+                0x200008f4       0x34 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+                0x200008f4                __do_global_dtors_aux
+ .text.__do_init_array_aux
+                0x20000928       0x3c obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+                0x20000928                __do_init_array_aux
+ .text.dfss_gpio_0_read
+                0x20000964       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_1_read
+                0x20000974       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_2_read
+                0x20000984       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_3_read
+                0x20000994       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_4_read
+                0x200009a4       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_5_read
+                0x200009b4       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_6_read
+                0x200009c4       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_0_write
+                0x200009d4       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_1_write
+                0x200009e4       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_2_write
+                0x200009f4       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_3_write
+                0x20000a04       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_4_write
+                0x20000a14       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_5_write
+                0x20000a24       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_6_write
+                0x20000a34       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_0_control
+                0x20000a44       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_1_control
+                0x20000a54       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_2_control
+                0x20000a64       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_3_control
+                0x20000a74       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_4_control
+                0x20000a84       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_5_control
+                0x20000a94       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_6_control
+                0x20000aa4       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_0_close
+                0x20000ab4        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_1_close
+                0x20000ac0        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_2_close
+                0x20000acc        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_3_close
+                0x20000ad8        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_4_close
+                0x20000ae4        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_5_close
+                0x20000af0        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_6_close
+                0x20000afc        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_0_open
+                0x20000b08        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_1_open
+                0x20000b14        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_2_open
+                0x20000b20        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_3_open
+                0x20000b2c        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_4_open
+                0x20000b38        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_5_open
+                0x20000b44        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_6_open
+                0x20000b50        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.gpio_int_cb0
+                0x20000b5c        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.gpio_int_cb1
+                0x20000b68        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.gpio_int_cb2
+                0x20000b74        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.gpio_int_cb3
+                0x20000b80        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.gpio_int_cb4
+                0x20000b8c        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.gpio_int_cb5
+                0x20000b98        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.gpio_int_cb6
+                0x20000ba4        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .text.dfss_gpio_all_install
+                0x20000bb0      0x1f0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+                0x20000bb0                dfss_gpio_all_install
+ .text.gpio_get_dev
+                0x20000da0       0x4c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+                0x20000da0                gpio_get_dev
+ .text.ss_gpio_open
+                0x20000dec       0xb8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+                0x20000dec                ss_gpio_open
+ .text.ss_gpio_close
+                0x20000ea4       0x3c obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+                0x20000ea4                ss_gpio_close
+ .text.ss_gpio_control
+                0x20000ee0      0x208 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+                0x20000ee0                ss_gpio_control
+ .text.ss_gpio_write
+                0x200010e8       0x44 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+                0x200010e8                ss_gpio_write
+ .text.ss_gpio_read
+                0x2000112c       0x30 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+                0x2000112c                ss_gpio_read
+ .text.ss_gpio_int_cb
+                0x2000115c       0x4c obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+                0x2000115c                ss_gpio_int_cb
+ .text.board_init
+                0x200011a8       0x2c obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+                0x200011a8                board_init
+ .text.board_timer_update
+                0x200011d4       0x90 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+                0x200011d4                board_timer_update
+ .text.iotdk_timer_isr
+                0x20001264       0x14 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .text.iotdk_timer_init
+                0x20001278       0x40 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+                0x20001278                iotdk_timer_init
+ .text.io_pmod_config
+                0x200012b8       0x94 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+                0x200012b8                io_pmod_config
+ .text.io_mux_init
+                0x2000134c       0x14 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+                0x2000134c                io_mux_init
+ .text.pll_conf_reg
+                0x20001360       0x48 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+                0x20001360                pll_conf_reg
+ .text.pll_fout_config
+                0x200013a8       0xa4 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+                0x200013a8                pll_fout_config
+ .text.console_putchar
+                0x2000144c       0x2c obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+                0x2000144c                console_putchar
+ .text.console_getchar
+                0x20001478       0x44 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+                0x20001478                console_getchar
+ .text.xprintf_setup
+                0x200014bc       0x88 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+                0x200014bc                xprintf_setup
+ .text.xputc    0x20001544       0x48 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+                0x20001544                xputc
+ .text.xvprintf
+                0x2000158c      0x394 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+                0x2000158c                xvprintf
+ .text.xprintf  0x20001920       0x28 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+                0x20001920                xprintf
+ .text.arc_cache_init
+                0x20001948      0x118 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+                0x20001948                arc_cache_init
+ .text.int_handler_default
+                0x20001a60       0x34 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text.dump_protv_access_err
+                0x20001a94       0x80 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text.exc_handler_default
+                0x20001b14      0x39c obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .text.exc_int_init
+                0x20001eb0       0x80 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x20001eb0                exc_int_init
+ .text.int_disable
+                0x20001f30       0x28 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x20001f30                int_disable
+ .text.int_enable
+                0x20001f58       0x28 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x20001f58                int_enable
+ .text.cpu_unlock
+                0x20001f80        0x8 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x20001f80                cpu_unlock
+ .text.cpu_lock_save
+                0x20001f88        0x8 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x20001f88                cpu_lock_save
+ .text.cpu_unlock_restore
+                0x20001f90        0x8 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x20001f90                cpu_unlock_restore
+ .text.int_handler_install
+                0x20001f98       0x20 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x20001f98                int_handler_install
+ .text.arc_delay_us.part.0
+                0x20001fb8       0x4c obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .text.timer_present
+                0x20002004       0x38 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+                0x20002004                timer_present
+ .text.timer_start
+                0x2000203c       0x6c obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+                0x2000203c                timer_start
+ .text.timer_int_clear
+                0x200020a8       0x34 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+                0x200020a8                timer_int_clear
+ .text.timer_init
+                0x200020dc       0x74 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+                0x200020dc                timer_init
+ .text.timer_calibrate_delay
+                0x20002150      0x1ac obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+                0x20002150                timer_calibrate_delay
+ .text          0x200022fc      0x2f8 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+                0x200022fc                exc_entry_cpu
+                0x2000247c                exc_entry_int
+                0x20002530                exc_entry_firq
+ .text.gnu_printf_setup
+                0x200025f4        0x4 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+                0x200025f4                gnu_printf_setup
+ .text.dfss_uart_0_read
+                0x200025f8       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_1_read
+                0x20002608       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_2_read
+                0x20002618       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_3_read
+                0x20002628       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_0_write
+                0x20002638       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_1_write
+                0x20002648       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_2_write
+                0x20002658       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_3_write
+                0x20002668       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_0_control
+                0x20002678       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_1_control
+                0x20002688       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_2_control
+                0x20002698       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_3_control
+                0x200026a8       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_0_close
+                0x200026b8        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_1_close
+                0x200026c4        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_2_close
+                0x200026d0        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_3_close
+                0x200026dc        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_0_open
+                0x200026e8        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_1_open
+                0x200026f4        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_2_open
+                0x20002700        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_3_open
+                0x2000270c        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.uart_err_cb0
+                0x20002718        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.uart_err_cb1
+                0x20002724        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.uart_err_cb2
+                0x20002730        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.uart_err_cb3
+                0x2000273c        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.uart_rx_cb0
+                0x20002748        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.uart_rx_cb1
+                0x20002754        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.uart_rx_cb2
+                0x20002760        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.uart_rx_cb3
+                0x2000276c        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.uart_tx_cb0
+                0x20002778        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.uart_tx_cb1
+                0x20002784        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.uart_tx_cb2
+                0x20002790        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.uart_tx_cb3
+                0x2000279c        0xc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .text.dfss_uart_all_install
+                0x200027a8      0x120 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+                0x200027a8                dfss_uart_all_install
+ .text.uart_get_dev
+                0x200028c8       0x48 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+                0x200028c8                uart_get_dev
+ .text.gpio_ISR_proc
+                0x20002910       0x40 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .text.gpio_4B_2_ISR
+                0x20002950        0x8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .text.gpio_4B_1_ISR
+                0x20002958        0x8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .text.gpio_4B_0_ISR
+                0x20002960        0x8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .text.gpio_8B_3_ISR
+                0x20002968        0x8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .text.gpio_8B_2_ISR
+                0x20002970        0x8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .text.gpio_8B_1_ISR
+                0x20002978        0x8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .text.gpio_8B_0_ISR
+                0x20002980        0x8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .text.io_gpio_open
+                0x20002988       0x98 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+                0x20002988                io_gpio_open
+ .text.io_gpio_close
+                0x20002a20       0x5c obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+                0x20002a20                io_gpio_close
+ .text.io_gpio_read
+                0x20002a7c       0x1c obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+                0x20002a7c                io_gpio_read
+ .text.io_gpio_write
+                0x20002a98       0x18 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+                0x20002a98                io_gpio_write
+ .text.io_gpio_ioctl
+                0x20002ab0       0xf0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+                0x20002ab0                io_gpio_ioctl
+ .text.set_dps  0x20002ba0       0xa8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .text.ss_uart_open
+                0x20002c48       0xe8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+                0x20002c48                ss_uart_open
+ .text.ss_uart_close
+                0x20002d30       0x34 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+                0x20002d30                ss_uart_close
+ .text.ss_uart_control
+                0x20002d64      0x1a0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+                0x20002d64                ss_uart_control
+ .text.ss_uart_write
+                0x20002f04       0xb8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+                0x20002f04                ss_uart_write
+ .text.ss_uart_read
+                0x20002fbc       0xc8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+                0x20002fbc                ss_uart_read
+ .text.ss_uart_tx_cb
+                0x20003084       0x24 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+                0x20003084                ss_uart_tx_cb
+ .text.ss_uart_rx_cb
+                0x200030a8       0x24 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+                0x200030a8                ss_uart_rx_cb
+ .text.ss_uart_err_cb
+                0x200030cc       0x14 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+                0x200030cc                ss_uart_err_cb
+ .text.uart0_dmatx_ISR
+                0x200030e0        0x4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .text.uart_isr_proc
+                0x200030e4      0x368 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .text.uart3_ISR
+                0x2000344c        0x8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .text.uart2_ISR
+                0x20003454        0x8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .text.uart1_ISR
+                0x2000345c        0x8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .text.uart0_ISR
+                0x20003464        0x8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .text.uart3_dmarx_ISR
+                0x2000346c        0x4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .text.uart0_dmarx_ISR
+                0x20003470        0x4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .text.uart1_dmatx_ISR
+                0x20003474        0x4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .text.uart1_dmarx_ISR
+                0x20003478        0x4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .text.uart2_dmatx_ISR
+                0x2000347c        0x4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .text.uart2_dmarx_ISR
+                0x20003480        0x4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .text.uart3_dmatx_ISR
+                0x20003484        0x4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .text.io_uart_open
+                0x20003488       0xd8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+                0x20003488                io_uart_open
+ .text.io_uart_close
+                0x20003560       0x70 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+                0x20003560                io_uart_close
+ .text.io_uart_read
+                0x200035d0       0x5c obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+                0x200035d0                io_uart_read
+ .text.io_uart_write
+                0x2000362c       0x88 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+                0x2000362c                io_uart_write
+ .text.io_uart_ioctl
+                0x200036b4      0x1e8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+                0x200036b4                io_uart_ioctl
+ .text.__udivdi3
+                0x2000389c      0x36c c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/em4_fpuda\libgcc.a(_udivdi3.o)
+                0x2000389c                __udivdi3
+                0x20003c08                _e_text = .
+
+.rodata         0x20003c08      0xed8
+                0x20003c08                _f_rodata = .
+                0x20003c08                . = ALIGN (0x4)
+                0x20003c08                __CTOR_LIST__ = .
+                0x20003c08        0x4 LONG 0x0 (((__CTOR_END__ - __CTOR_LIST__) / 0x4) - 0x2)
+ *(SORT_BY_NAME(.ctors*))
+                0x20003c0c        0x4 LONG 0x0
+                0x20003c10                __CTOR_END__ = .
+                0x20003c10                . = ALIGN (0x4)
+                0x20003c10                __init_array_start = .
+ *(SORT_BY_NAME(.init_array*))
+                0x20003c10                __init_array_end = .
+                0x20003c10                . = ALIGN (0x4)
+                0x20003c10                __DTOR_LIST__ = .
+                0x20003c10        0x4 LONG 0x0 (((__DTOR_END__ - __DTOR_LIST__) / 0x4) - 0x2)
+ *(SORT_BY_NAME(.dtors*))
+                0x20003c14        0x4 LONG 0x0
+                0x20003c18                __DTOR_END__ = .
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.main.str1.4
+                0x20003c18        0x9 obj_iotdk_10/gnu_arcem9d/application/./main.o
+                                  0xc (size before relaxing)
+ *fill*         0x20003c21        0x3 
+ .rodata.str1.4
+                0x20003c24        0x5 obj_iotdk_10/gnu_arcem9d/board/board.o
+                                  0x8 (size before relaxing)
+ *fill*         0x20003c29        0x3 
+ .rodata.CSWTCH.52
+                0x20003c2c       0x1c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .rodata.ss_gpio_control
+                0x20003c48       0x28 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+ .rodata.pll_configuration
+                0x20003c70       0x58 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .rodata.xprintf_setup.str1.4
+                0x20003cc8      0x320 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .rodata.xvprintf
+                0x20003fe8       0x5c obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .rodata.int_handler_default.str1.4
+                0x20004044       0x3c obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .rodata.dump_protv_access_err.str1.4
+                0x20004080       0x7a obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                                 0x7c (size before relaxing)
+ *fill*         0x200040fa        0x2 
+ .rodata.dump_protv_access_err
+                0x200040fc       0x90 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .rodata.exc_handler_default.str1.4
+                0x2000418c      0x5dc obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                                0x5e0 (size before relaxing)
+ .rodata.exc_handler_default
+                0x20004768      0x1a8 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .rodata.CSWTCH.39
+                0x20004910       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .rodata.io_gpio_ioctl
+                0x20004920       0xc0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .rodata.ss_uart_control
+                0x200049e0       0x48 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .rodata.uart_isr_proc
+                0x20004a28       0x20 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .rodata.io_uart_ioctl
+                0x20004a48       0x98 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+                0x20004ae0                _e_rodata = .
+
+.data           0x80000000      0x568 load address 0x20004ae0
+                0x80000000                _f_data = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.s_main_args
+                0x80000000        0x8 obj_iotdk_10/gnu_arcem9d/board/board.o
+                0x80000000                s_main_args
+ .data.gpio_context6
+                0x80000008       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .data.gpio_context5
+                0x80000028       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .data.gpio_context4
+                0x80000048       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .data.gpio_context3
+                0x80000068       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .data.gpio_context2
+                0x80000088       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .data.gpio_context1
+                0x800000a8       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .data.gpio_context0
+                0x800000c8       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .data.sysconf_reg_ptr
+                0x800000e8        0x4 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+                0x800000e8                sysconf_reg_ptr
+ .data.exc_int_handler_table
+                0x800000ec      0x1bc obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x800000ec                exc_int_handler_table
+ .data.gl_count
+                0x800002a8        0x4 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+                0x800002a8                gl_count
+ .data.gl_loops_per_jiffy
+                0x800002ac        0x8 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+                0x800002ac                gl_loops_per_jiffy
+ .data.uart_context3
+                0x800002b4       0x1c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .data.uart_context2
+                0x800002d0       0x1c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .data.uart_context1
+                0x800002ec       0x1c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .data.uart_context0
+                0x80000308       0x1c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .data.gpio_devs
+                0x80000324       0xa0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .data.uart_devs
+                0x800003c4      0x1a4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+                0x80000568                _f_sdata = .
+                0x80000568                __SDATA_BEGIN__ = .
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+                [!provide]                PROVIDE (__sbss_start = .)
+                [!provide]                PROVIDE (___sbss_start = .)
+                0x80000568                _f_sbss = .
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ *(.scommon)
+                0x80000568                _e_sbss = .
+                [!provide]                PROVIDE (__sbss_end = .)
+                [!provide]                PROVIDE (___sbss_end = .)
+                0x80000568                _e_sdata = .
+                0x80000568                _e_data = .
+
+.bss            0x80000568      0x3d8 load address 0x20005048
+                0x80000568                _f_bss = .
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss.install_flag.2037
+                0x80000568        0x4 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .bss.gpio_int_handlers6
+                0x8000056c       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .bss.gpio_6    0x8000057c       0x2c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .bss.gpio_int_handlers5
+                0x800005a8       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .bss.gpio_5    0x800005b8       0x2c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .bss.gpio_int_handlers4
+                0x800005e4       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .bss.gpio_4    0x800005f4       0x2c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .bss.gpio_int_handlers3
+                0x80000620       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .bss.gpio_3    0x80000640       0x2c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .bss.gpio_int_handlers2
+                0x8000066c       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .bss.gpio_2    0x8000068c       0x2c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .bss.gpio_int_handlers1
+                0x800006b8       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .bss.gpio_1    0x800006d8       0x2c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .bss.gpio_int_handlers0
+                0x80000704       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .bss.gpio_0    0x80000724       0x2c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .bss.sys_ms_update.2897
+                0x80000750        0x4 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .bss.sys_hz_update.2896
+                0x80000754        0x4 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .bss.gl_iotdk_ms_cnt
+                0x80000758        0x4 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+                0x80000758                gl_iotdk_ms_cnt
+ .bss.gl_iotdk_sys_hz_cnt
+                0x8000075c        0x8 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+                0x8000075c                gl_iotdk_sys_hz_cnt
+ .bss.console_uart
+                0x80000764        0x4 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .bss.xprintf_setup_flag
+                0x80000768        0x4 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .bss.outptr    0x8000076c        0x4 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .bss.dcache_config
+                0x80000770        0x8 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .bss.icache_config
+                0x80000778        0x8 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .bss.install_flag.1932
+                0x80000780        0x4 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .bss.dfss_uart_3
+                0x80000784       0x5c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .bss.dfss_uart_2
+                0x800007e0       0x5c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .bss.dfss_uart_1
+                0x8000083c       0x5c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .bss.dfss_uart_0
+                0x80000898       0x5c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .bss.gpio_handles
+                0x800008f4       0x30 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .bss.uart_handles
+                0x80000924       0x10 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ *(COMMON)
+ COMMON         0x80000934        0x8 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+                0x80000934                xfunc_in
+                0x80000938                xfunc_out
+ COMMON         0x8000093c        0x4 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                0x8000093c                exc_nest_count
+                0x80000940                _e_bss = .
+
+.stack          0x80000940      0x800 load address 0x20005048
+                0x80000940                . = ALIGN (0x4)
+                0x80000940                _f_stack = .
+                0x80001140                . = (. + 0x800)
+ *fill*         0x80000940      0x800 
+                0x80001140                _e_stack = .
+
+.heap           0x80001140     0x2000 load address 0x20005048
+                0x80001140                . = ALIGN (0x4)
+                0x80001140                __start_heap = .
+                0x80001140                _f_heap = .
+                0x80003140                . = (. + 0x2000)
+ *fill*         0x80001140     0x2000 
+                0x80003140                _e_heap = .
+                0x80003140                __end_heap = .
+                0x20000800                _load_addr_text = LOADADDR (.text)
+                0x20003c08                _load_addr_rodata = LOADADDR (.rodata)
+                0x20004ae0                _load_addr_data = LOADADDR (.data)
+LOAD obj_iotdk_10/gnu_arcem9d/application/./main.o
+LOAD obj_iotdk_10/gnu_arcem9d/board/board.o
+LOAD obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+LOAD obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+START GROUP
+LOAD obj_iotdk_10/gnu_arcem9d/libembarc.a
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/../../../../arc-elf32/lib/em4_fpuda\libm.a
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/../../../../arc-elf32/lib/em4_fpuda\libc.a
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/em4_fpuda\libgcc.a
+END GROUP
+START GROUP
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/em4_fpuda\libgcc.a
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/../../../../arc-elf32/lib/em4_fpuda\libc.a
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/../../../../arc-elf32/lib/em4_fpuda\libnosys.a
+END GROUP
+OUTPUT(obj_iotdk_10/gnu_arcem9d/blinky_gnu_arcem9d.elf elf32-littlearc)
+
+.debug_info     0x00000000     0xea54
+ .debug_info    0x00000000     0x1003 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_info    0x00001003      0xf92 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_info    0x00001f95      0x1fe obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_info    0x00002193       0x26 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .debug_info    0x000021b9     0x15e3 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .debug_info    0x0000379c      0x803 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+ .debug_info    0x00003f9f      0x674 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .debug_info    0x00004613      0x86b obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_info    0x00004e7e      0xaaa obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_info    0x00005928      0x851 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_info    0x00006179     0x1259 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_info    0x000073d2      0x8bc obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_info    0x00007c8e      0x91e obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_info    0x000085ac     0x1703 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_info    0x00009caf      0x5a3 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_info    0x0000a252       0x26 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .debug_info    0x0000a278      0x9d2 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .debug_info    0x0000ac4a     0x1161 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .debug_info    0x0000bdab      0xe14 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .debug_info    0x0000cbbf      0xe66 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_info    0x0000da25     0x102f obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+
+.debug_abbrev   0x00000000     0x373c
+ .debug_abbrev  0x00000000      0x2ac obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_abbrev  0x000002ac      0x35b obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_abbrev  0x00000607      0x172 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_abbrev  0x00000779       0x14 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .debug_abbrev  0x0000078d      0x2b8 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .debug_abbrev  0x00000a45      0x23e obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+ .debug_abbrev  0x00000c83      0x1fb obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .debug_abbrev  0x00000e7e      0x349 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_abbrev  0x000011c7      0x32e obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_abbrev  0x000014f5      0x2d8 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_abbrev  0x000017cd      0x37b obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_abbrev  0x00001b48      0x2f9 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_abbrev  0x00001e41      0x2d9 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_abbrev  0x0000211a      0x43e obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_abbrev  0x00002558      0x2de obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_abbrev  0x00002836       0x14 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .debug_abbrev  0x0000284a      0x1cf obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .debug_abbrev  0x00002a19      0x2f0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .debug_abbrev  0x00002d09      0x2fa obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .debug_abbrev  0x00003003      0x3cb obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_abbrev  0x000033ce      0x36e obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+
+.debug_loc      0x00000000     0x7408
+ .debug_loc     0x00000000       0x22 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_loc     0x00000022       0x40 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_loc     0x00000062       0xa3 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_loc     0x00000105      0xb3c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .debug_loc     0x00000c41      0x9e8 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+ .debug_loc     0x00001629      0x14d obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_loc     0x00001776      0xa31 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_loc     0x000021a7      0x306 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_loc     0x000024ad       0xdf obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_loc     0x0000258c     0x1198 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_loc     0x00003724      0x56a obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_loc     0x00003c8e      0xd7e obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_loc     0x00004a0c      0x5b6 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_loc     0x00004fc2      0x81c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .debug_loc     0x000057de      0x439 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .debug_loc     0x00005c17      0xfa7 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_loc     0x00006bbe      0x84a obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+
+.debug_aranges  0x00000000      0x920
+ .debug_aranges
+                0x00000000       0x20 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_aranges
+                0x00000020       0x20 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_aranges
+                0x00000040       0x40 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_aranges
+                0x00000080       0x20 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .debug_aranges
+                0x000000a0      0x178 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .debug_aranges
+                0x00000218       0x48 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+ .debug_aranges
+                0x00000260       0x20 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .debug_aranges
+                0x00000280       0x48 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_aranges
+                0x000002c8       0x50 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_aranges
+                0x00000318       0xe0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_aranges
+                0x000003f8       0x40 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_aranges
+                0x00000438       0x78 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_aranges
+                0x000004b0       0x78 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_aranges
+                0x00000528       0xe0 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_aranges
+                0x00000608       0x60 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_aranges
+                0x00000668       0x20 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .debug_aranges
+                0x00000688       0x20 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .debug_aranges
+                0x000006a8      0x128 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .debug_aranges
+                0x000007d0       0x80 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .debug_aranges
+                0x00000850       0x60 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_aranges
+                0x000008b0       0x70 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+
+.debug_ranges   0x00000000      0xc68
+ .debug_ranges  0x00000000       0x10 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_ranges  0x00000010       0x10 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_ranges  0x00000020       0x30 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_ranges  0x00000050      0x270 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .debug_ranges  0x000002c0       0x38 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+ .debug_ranges  0x000002f8       0x10 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .debug_ranges  0x00000308       0x80 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_ranges  0x00000388       0xd0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_ranges  0x00000458       0xe8 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_ranges  0x00000540       0x48 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_ranges  0x00000588       0x98 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_ranges  0x00000620       0x80 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_ranges  0x000006a0      0x238 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_ranges  0x000008d8       0x68 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_ranges  0x00000940       0x10 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .debug_ranges  0x00000950      0x198 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .debug_ranges  0x00000ae8       0x70 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .debug_ranges  0x00000b58       0xb0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_ranges  0x00000c08       0x60 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+
+.debug_line     0x00000000     0x6895
+ .debug_line    0x00000000      0x250 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_line    0x00000250      0x2ad obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_line    0x000004fd      0x13f obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_line    0x0000063c       0xc3 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .debug_line    0x000006ff      0x903 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .debug_line    0x00001002      0x4cf obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+ .debug_line    0x000014d1      0x1c8 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .debug_line    0x00001699      0x374 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_line    0x00001a0d      0x5a8 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_line    0x00001fb5      0x7c1 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_line    0x00002776      0x33d obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_line    0x00002ab3      0x9e2 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_line    0x00003495      0x7ab obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_line    0x00003c40      0x9fb obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_line    0x0000463b      0x44c obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_line    0x00004a87       0xa5 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .debug_line    0x00004b2c      0x162 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .debug_line    0x00004c8e      0x6a7 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .debug_line    0x00005335      0x40c obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .debug_line    0x00005741      0x836 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_line    0x00005f77      0x91e obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+
+.debug_str      0x00000000     0x28f8
+ .debug_str     0x00000000      0x99f obj_iotdk_10/gnu_arcem9d/application/./main.o
+                                0xa98 (size before relaxing)
+ .debug_str     0x0000099f       0xa4 obj_iotdk_10/gnu_arcem9d/board/board.o
+                                0xa6e (size before relaxing)
+ .debug_str     0x00000a43      0x12a obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+                                0x24a (size before relaxing)
+ .debug_str     0x00000b6d       0x1d obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+                                 0x59 (size before relaxing)
+ .debug_str     0x00000b8a      0x5d1 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+                                0x8d9 (size before relaxing)
+ .debug_str     0x0000115b       0xc5 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+                                0x499 (size before relaxing)
+ .debug_str     0x00001220      0x142 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+                                0x706 (size before relaxing)
+ .debug_str     0x00001362      0x13b obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+                                0x71a (size before relaxing)
+ .debug_str     0x0000149d      0x280 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+                                0x927 (size before relaxing)
+ .debug_str     0x0000171d      0x1f0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+                                0x593 (size before relaxing)
+ .debug_str     0x0000190d      0x147 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+                                0xbaa (size before relaxing)
+ .debug_str     0x00001a54       0x9f obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+                                0x22e (size before relaxing)
+ .debug_str     0x00001af3      0x21a obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+                                0x460 (size before relaxing)
+ .debug_str     0x00001d0d      0x34e obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+                                0x69f (size before relaxing)
+ .debug_str     0x0000205b       0x80 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+                                0x328 (size before relaxing)
+ .debug_str     0x000020db        0xe obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+                                 0x59 (size before relaxing)
+ .debug_str     0x000020e9       0x1f obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+                                0x621 (size before relaxing)
+ .debug_str     0x00002108      0x3dc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+                                0x862 (size before relaxing)
+ .debug_str     0x000024e4       0xfc obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+                                0x777 (size before relaxing)
+ .debug_str     0x000025e0      0x102 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+                                0x64d (size before relaxing)
+ .debug_str     0x000026e2      0x216 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+                                0x8ba (size before relaxing)
+
+.comment        0x00000000       0x42
+ .comment       0x00000000       0x42 obj_iotdk_10/gnu_arcem9d/application/./main.o
+                                 0x43 (size before relaxing)
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .comment       0x00000042       0x43 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/em4_fpuda\libgcc.a(_udivdi3.o)
+
+.ARC.attributes
+                0x00000000       0x40
+ .ARC.attributes
+                0x00000000       0x29 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .ARC.attributes
+                0x00000029       0x29 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .ARC.attributes
+                0x00000052       0x2c obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .ARC.attributes
+                0x0000007e       0x25 obj_iotdk_10/gnu_arcem9d/arc/startup/arc_startup.o
+ .ARC.attributes
+                0x000000a3       0x29 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .ARC.attributes
+                0x000000cc       0x29 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+ .ARC.attributes
+                0x000000f5       0x29 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .ARC.attributes
+                0x0000011e       0x33 obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .ARC.attributes
+                0x00000151       0x29 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .ARC.attributes
+                0x0000017a       0x2c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .ARC.attributes
+                0x000001a6       0x29 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .ARC.attributes
+                0x000001cf       0x33 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .ARC.attributes
+                0x00000202       0x2c obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .ARC.attributes
+                0x0000022e       0x2c obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .ARC.attributes
+                0x0000025a       0x36 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .ARC.attributes
+                0x00000290       0x28 obj_iotdk_10/gnu_arcem9d/arc/arc_exc_asm.o
+ .ARC.attributes
+                0x000002b8       0x29 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .ARC.attributes
+                0x000002e1       0x29 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .ARC.attributes
+                0x0000030a       0x2b obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .ARC.attributes
+                0x00000335       0x34 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .ARC.attributes
+                0x00000369       0x2e obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .ARC.attributes
+                0x00000397       0x40 c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/em4_fpuda\libgcc.a(_udivdi3.o)
+
+.debug_frame    0x00000000     0x19b8
+ .debug_frame   0x00000000       0x48 obj_iotdk_10/gnu_arcem9d/application/./main.o
+ .debug_frame   0x00000048       0x28 obj_iotdk_10/gnu_arcem9d/board/board.o
+ .debug_frame   0x00000070       0xbc obj_iotdk_10/gnu_arcem9d/arc/startup/arc_cxx_support.o
+ .debug_frame   0x0000012c      0x304 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/gpio/dfss_gpio_obj.o
+ .debug_frame   0x00000430      0x1f4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/ss_gpio.o
+ .debug_frame   0x00000624       0x2c obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_init.o
+ .debug_frame   0x00000650      0x11c obj_iotdk_10/gnu_arcem9d/board/iotdk/common/iotdk_timer.o
+ .debug_frame   0x0000076c       0x9c obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/mux/mux.o
+ .debug_frame   0x00000808      0x1bc obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/sysconf/sysconf.o
+ .debug_frame   0x000009c4       0x98 obj_iotdk_10/gnu_arcem9d/middleware/common/console_io.o
+ .debug_frame   0x00000a5c      0x270 obj_iotdk_10/gnu_arcem9d/middleware/common/xprintf/xprintf.o
+ .debug_frame   0x00000ccc      0x1bc obj_iotdk_10/gnu_arcem9d/arc/arc_cache.o
+ .debug_frame   0x00000e88      0x220 obj_iotdk_10/gnu_arcem9d/arc/arc_exception.o
+ .debug_frame   0x000010a8      0x130 obj_iotdk_10/gnu_arcem9d/arc/arc_timer.o
+ .debug_frame   0x000011d8       0x20 obj_iotdk_10/gnu_arcem9d/library/clib/embarc_misc.o
+ .debug_frame   0x000011f8      0x264 obj_iotdk_10/gnu_arcem9d/board/iotdk/drivers/ip/subsystem/uart/dfss_uart_obj.o
+ .debug_frame   0x0000145c      0x130 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/gpio/gpio.o
+ .debug_frame   0x0000158c      0x1b4 obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/ss_uart.o
+ .debug_frame   0x00001740      0x21c obj_iotdk_10/gnu_arcem9d/device/ip/subsystem/uart/uart.o
+ .debug_frame   0x0000195c       0x5c c:/arc_gnu/bin/../lib/gcc/arc-elf32/9.3.1/em4_fpuda\libgcc.a(_udivdi3.o)
