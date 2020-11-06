@@ -26,7 +26,7 @@ int main(void)
     while(1)
     {
         // #e7b07e
-        pwm_timer_0->pwm_timer_write(PWM_TIMER0, DEV_PWM_TIMER_MODE_PWM, 100000, 90);
+        pwm_timer_0->pwm_timer_write(PWM_TIMER0, DEV_PWM_TIMER_MODE_PWM, 100000, 91);
         pwm_timer_0->pwm_timer_write(PWM_TIMER1, DEV_PWM_TIMER_MODE_PWM, 100000, 69);
         pwm_timer_0->pwm_timer_write(PWM_TIMER2, DEV_PWM_TIMER_MODE_PWM, 100000, 49);
         board_delay_ms(2000,1);
@@ -34,13 +34,13 @@ int main(void)
         // #71baef
         pwm_timer_0->pwm_timer_write(PWM_TIMER0, DEV_PWM_TIMER_MODE_PWM, 100000, 44);
         pwm_timer_0->pwm_timer_write(PWM_TIMER1, DEV_PWM_TIMER_MODE_PWM, 100000, 73);
-        pwm_timer_0->pwm_timer_write(PWM_TIMER2, DEV_PWM_TIMER_MODE_PWM, 100000, 93);
+        pwm_timer_0->pwm_timer_write(PWM_TIMER2, DEV_PWM_TIMER_MODE_PWM, 100000, 94);
         board_delay_ms(2000,1);
 
         // #605de5
         pwm_timer_0->pwm_timer_write(PWM_TIMER0, DEV_PWM_TIMER_MODE_PWM, 100000, 38);
         pwm_timer_0->pwm_timer_write(PWM_TIMER1, DEV_PWM_TIMER_MODE_PWM, 100000, 36);
-        pwm_timer_0->pwm_timer_write(PWM_TIMER2, DEV_PWM_TIMER_MODE_PWM, 100000, 89);
+        pwm_timer_0->pwm_timer_write(PWM_TIMER2, DEV_PWM_TIMER_MODE_PWM, 100000, 90);
         board_delay_ms(2000,1);
 
         // #ee20df
